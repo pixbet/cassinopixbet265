@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.game-aviator {
+	background-color: #101213 !important;
+	padding: 10px;
+	margin: 0 auto;
+	margin: 30px;
+	min-width: 370px;
+	margin-bottom: 0 !important;
+	border-radius: 4px;
+}
+.sinal {
+	padding: 10px;
+	background-color: #212425;
+	text-align: center;
+	border-radius: 4px;
+}
+.list-sinal {
+	display: flex;
+	justify-content: space-between;
+	row-gap: 5px !important;
+	background-color: #101213;
+	margin-top: 10px;
+}
+.list-sinal > * {
+	background-color: #212425 !important;
+	padding: 10px;
+	min-width: 100px;
+	border-radius: 4px;
+}
+.list-sinal > * .label {
+	font-size: 14px;
+	color: #bdbdbd;
+	text-align: center;
+}
+.list-sinal > * .value {
+	margin-top: 4px;
+	font-size: 16px;
+	text-align: center;
+}
+.button-aviator {
+	margin: 8px;
+	background-color: #d30c0c;
+	text-align: center;
+	padding: 10px 5px;
+	min-width: 370px;
+	font-family: 'Roboto', sans-serif !important;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+.button-aviator:hover {
+	background-color: #a10606;
+}

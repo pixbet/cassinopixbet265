@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PixBet265 APP | Fortune Ox</title>
+		<link rel="icon" href="../imagens/favicon.png" type="image/x-icon" />
+
+		<link rel="stylesheet" href="../estilos/styles.css" />
+		<link rel="stylesheet" href="../estilos/tiger.css" />
+		<link rel="stylesheet" href="../estilos/layout.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container ox">
+			<div class="content">
+				<div class="floating-button ox-button pulse" id="floatingButton">
+					IDENTIFICAR SINAL </br><span id="countdown"></span>
+			</div>
+				<div class="sending">Identificando...</div>
+				<div class="container-result">
+					<div class="enter">Entre em: <span id="time-to-play"></span></div>
+					<div class="play">
+						<span class="times-span"><span id="times-to-play"></span>x</span>
+						Normal
+					</div>
+					<div class="play">
+						<span class="times-span"
+							><span id="times-to-play-turb"></span>x</span
+						>
+						Turbo
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="iframe-container">
+			<div class="spinner-container">
+				Carregando casa...
+				<div class="spinner"></div>
+			</div>
+			<iframe
+				class="iframe-embed"
+				id="iframe-ox"
+				src="https://araujoromario.github.io/pixbet265/"
+				frameborder="0"
+			></iframe>
+		</div>
+
+		<script src="../codigo/index2.js"></script>
+		<script src="../codigo/tiger.js"></script>
+		<script src="../codigo/injectconfig2.js"></script>
+	</body>
+</html>

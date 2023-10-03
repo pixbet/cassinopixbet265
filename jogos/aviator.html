@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PixBet265 APP | Aviator</title>
+		<link rel="icon" href="../imagens/favicon.png" type="image/x-icon" />
+
+		<link rel="stylesheet" href="../estilos/layout.css" />
+		<link rel="stylesheet" href="../estilos/styles.css" />
+		<link rel="stylesheet" href="../estilos/aviator.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="game-aviator">
+			<div class="sinal">Gere um sinal</div>
+			<div class="list-sinal">
+				<div class="jogadas">
+					<div class="label">Jogadas</div>
+					<div class="value">--</div>
+				</div>
+				<div class="saida">
+					<div class="label">Saída</div>
+					<div class="value">--</div>
+				</div>
+				<div class="valido">
+					<div class="label">Válido até</div>
+					<div class="value">--</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="button-aviator" id="timerButton">
+			<span id="spanButton">IDENTIFICAR SINAL</span>
+			<span id="countdown"></span>
+		</div>
+
+		<div class="iframe-container">
+			<div class="spinner-container">
+				Carregando casa...
+				<div class="spinner"></div>
+			</div>
+			<iframe
+				class="iframe-embed"
+				id="iframe-aviator"
+				src="https://araujoromario.github.io/pixbet265//"
+				frameborder="0"
+			></iframe>
+		</div>
+
+		<script src="../codigo/index2.js"></script>
+		<script src="../codigo/aviator.js"></script>
+		<script src="../codigo/injectconfig2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../imagens/tiger/fundo.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 435px;
+	margin: 0 auto;
+	height: 520px;
+}
+.mouse {
+	background-image: url('../imagens/mouse/fundo.png');
+	height: 580px !important;
+}
+
+.ox {
+	background-image: url('../imagens/ox/fundo.png');
+	height: 580px !important;
+}
+.rabbit {
+	background-image: url('../imagens/rabbit/fundo.png');
+}
+.container .content {
+	margin-top: 0px;
+}
+.container .content-rabbit .floating-button {
+	color: #ffffff;
+}
+.container .content-rabbit .sending {
+	color: #ffffff;
+}
+.container .content-rabbit #time-to-play {
+	color: #ffffff;
+}
+.container .content-rabbit .times-span {
+	color: #ffffff;
+}
+.pulse {
+	animation: pulse 1s infinite;
+}
+.floating-button {
+	font-family: 'Potta One', cursive !important;
+	font-size: 20px;
+	padding: 15px 30px;
+	border-radius: 10px;
+	border: none;
+	color: #fcac56;
+	margin-top: 60px !important;
+	background-color: #e6252f;
+	cursor: pointer;
+	user-select: none;
+}
+@keyframes pulse {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+}
+.ox-button {
+	margin-top: -140px !important;
+}
+.content {
+	text-align: center !important;
+}
+.sending {
+	display: none;
+	justify-content: center;
+	margin-top: 24px;
+	font-family: 'Potta One', cursive !important;
+	color: #e6252f;
+	font-weight: 500;
+	text-align: center !important;
+}
+.container-result {
+	display: none;
+	flex-direction: column;
+	margin-top: 24px;
+	font-size: 21px;
+	font-weight: 500;
+	text-align: center !important;
+	color: #e6252f;
+}
+.enter {
+	font-family: 'Potta One', cursive !important;
+}
+.play {
+	font-family: 'Potta One', cursive !important;
+	margin-top: 16px;
+}
+#time-to-play {
+	font-family: Roboto, sans-serif !important;
+	font-weight: 500;
+	color: #860b11;
+	font-size: 24px;
+}
+.times-span {
+	font-family: Roboto, sans-serif !important;
+	font-weight: 500;
+	color: #860b11;
+	font-size: 24px;
+}
+
+#countdown {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Potta One', cursive !important;
+}

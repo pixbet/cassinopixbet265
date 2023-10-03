@@ -1,0 +1,34 @@
+.mines-container {
+	max-width: 320px;
+	background-color: #067ace;
+	padding: 8px;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.alert-mines {
+	border-radius: 8px;
+	width: 100%;
+	height: 300px;
+}
+
+.floating-button {
+	margin-top: 8px;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	background-color: green;
+	cursor: pointer;
+	user-select: none;
+	text-align: center;
+}
+.recomended {
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+	margin: 4px 0;
+	justify-content: center;
+}
